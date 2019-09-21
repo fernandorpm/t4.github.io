@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth
+}
+
 .navbar-brand:hover {
-    color: grey;   
+    color: grey;
     text-align: left;
 }
 
@@ -18,7 +22,7 @@
 
 
 .bg-light {
-    background-color: white!important;
+    background-color: white !important;
 }
 
 .btnNav {
@@ -61,13 +65,15 @@
     background-color: red;
 }
 
-.btnRed,a {
+.btnRed,
+a {
     color: red;
     transition-duration: 0.2s;
 }
 
-.btnRed,a:hover {
-    color: white;   
+.btnRed,
+a:hover {
+    color: white;
     text-decoration: none;
 }
 
@@ -101,11 +107,11 @@
 .map {
     height: 400px;
     width: 100%;
-  }
+}
 
 @media screen and (max-width: 768px) {
     #navDesktop {
-      visibility: hidden;
-      display: none;
+        visibility: hidden;
+        display: none;
     }
 }
