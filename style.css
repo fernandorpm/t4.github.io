@@ -1,21 +1,20 @@
-.navbar-brand:hover {
-    color: grey;   
+.navbar-brand {
+    padding-top: 12px;  
     text-align: left;
 }
 
+.navbar-toggler {
+    text-align: right;
+    margin: 4px;
+}
+
 .divBtn {
-    padding-top: 12px;
     text-align: right;
 }
 
 .nav-link {
     display: inline-block;
 }
-
-.navContainer {
-    margin-bottom: -2px;
-}
-
 
 .bg-light {
     background-color: white!important;
@@ -99,13 +98,29 @@
 }
 
 .map {
-    height: 400px;
+    height: 350px;
     width: 100%;
   }
 
-@media screen and (max-width: 768px) {
-    #navDesktop {
-      visibility: hidden;
-      display: none;
-    }
+.btnContato {
+    border: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #bbb;
+    transition-duration: 0.3s;
+    border-radius: 3px;
+}
+
+.btnContato:hover {
+    background-color: red;
+    color: white;
+}
+
+.git {
+    color: #c24e4e;
+}
+
+.git:hover {
+    text-decoration-line: underline;
+    color: red;
 }
