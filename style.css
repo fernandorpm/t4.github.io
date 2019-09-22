@@ -1,15 +1,29 @@
 .navbar-brand {
-    padding-top: 12px;  
-    text-align: left;
+    padding-top: 12px;
+    margin: 0 auto;
 }
 
 .navbar-toggler {
     text-align: right;
-    margin: 4px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+    #btnMobile {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    #btnDesktop {
+      visibility: hidden;
+      display: none;
+    }
 }
 
 .divBtn {
-    text-align: right;
+    margin-left: auto;
 }
 
 .nav-link {
@@ -81,6 +95,25 @@
 
 .divClient {
     text-align: center;
+}
+
+.abtHover {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+}
+
+.abtHover:hover {
+    border: 1px solid red;
+    background-color: white;
+}
+
+.abtClick {
+    color: #212529;
+    transition-duration: 0s;
+}
+
+.abtClick:hover {
+    color: red;
 }
 
 .divApp {
