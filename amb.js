@@ -3,6 +3,7 @@ const development = document.getElementById("development");
 const design = document.getElementById("design");
 const server = document.getElementById("server");
 
+office.style.display = "none";
 development.style.display = "none";
 design.style.display = "none";
 server.style.display = "none";
@@ -68,6 +69,10 @@ document.getElementById("btnOff").onclick = function(){
 
     dcTotal.innerHTML = a+b+c+d+e + ",00";
     valorTotal.innerHTML = 1400 - (a+b+c+d+e) + ",00";
+
+    $('html, body').animate({
+        scrollTop: $('#office').offset().top
+    }, 500);
 };
 
 //___________________________________DEVELOPMENT_____________________________________
