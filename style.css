@@ -100,28 +100,58 @@ html {
 .divClient {
     text-align: center;
 }
-
-.abtHover {
+/*__________________OFFICE__________________*/
+.abtHoverOffice {
     border-radius: 3px;
     transition-duration: 0.3s;
+    background-image: url("png/abtOffice2.jpg");
+    background-size: cover;
 }
 
-.abtHover:hover {
-    border: 1px solid red;
-    background-color: white;
+.abtHoverOffice:hover {
+    background-image: url("png/abtOffice.jpg");
+}
+/*__________________DEVELOPMENT__________________*/
+.abtHoverDevelopment {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtDevelopment2.jpg");
+    background-size: cover;
+}
+
+.abtHoverDevelopment:hover {
+    background-image: url("png/abtDevelopment.jpg");
+}
+/*__________________DESIGN__________________*/
+.abtHoverDesign {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtDesign2.jpg");
+    background-size: cover;
+}
+
+.abtHoverDesign:hover {
+    background-image: url("png/abtDesign.jpg");
+}
+/*__________________SERVER__________________*/
+.abtHoverServer {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtServer2.jpg");
+    background-size: cover;
+}
+
+.abtHoverServer:hover {
+    background-image: url("png/abtServer.jpg");
 }
 
 .abtClick {
-    color: #212529;
+    color: white;
     transition-duration: 0s;
 }
 
-.abtClick:hover {
-    color: red;
-}
-
 .divApp {
-    background-image: url(png/appbg.jpg);
+    background-image: url(png/appbg2.jpg);
     background-size: cover;
     text-align: center;
 }
@@ -161,3 +191,46 @@ html {
     text-decoration-line: underline;
     color: red;
 }
+
+
+/*____________________________________*/
+
+.dcValue {
+    padding-left: auto;
+    text-align: right;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.dcTotal {
+    font-size: 24px;
+}
+
+.oq {
+    margin: 0 auto;
+}
+
+.dcSplit {
+    border-bottom: 1px solid #aaa;
+}
+
+.btnRed2 {
+    border: 1px solid red;
+    background-color: white;
+    transition-duration: 0.2s;
+    color: red;
+    border-radius: 3px;
+}
+
+.btnRed2:hover {
+    background-color: red;
+    color: white;
+}
+
+.abtClick2 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
