@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/style.css">
+    <title>T4</title>
+</head>
+
+<body>
+    <nav class="nav navbar-expand-lg fixed-top bg-light navbar-light" id="navDesktop">
+        <div class="container-fluid navContainer">
+            <div class="row">
+                <a class="navbar-brand pl-lg-4 pr-lg-3" href=""><img src="../images/t4.png" width="50px" alt=""></a>
+                <div class="divBtn2 pt-3 pb-3" id="btnMobile">
+                    <a href="https://www.facebook.com/T4you-116154059764344" target="_blank" class="p-2 btnNav"><img src="../images/btnFacebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/t4you2019/" target="_blank" class="p-2 btnNav"><img src="../images/btnInstagram.png" alt=""></a>
+                    <a href="" class="p-2 btnNav"><img src="../images/btnYouTube.png" alt=""></a>
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=t4you2019@gmail.com&amp;body=Olá!" target="_blank" class="p-2 btnNav">
+                        <img src="../images/btnGmail.png" alt="">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler mt-2 mb-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--_________________________________MENU ITEMS_________________________________-->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <button class="btnNav pb-2 pt-2"><a class="nav-link" href="../index.html">Home</a></button>
+                    <!--
+                            --><button class="btnNav pb-2 pt-2"><a class="nav-link" href="../index.html#ambientes">Ambientes</a></button>
+                    <!--
+                            --><button class="btnNav pb-2 pt-2"><a class="nav-link" href="../index.html#contato">Contato</a></button>
+
+                    <div class="divBtn pt-2 pb-3 pr-4" id="btnDesktop">
+                        <a href="https://www.facebook.com/T4you-116154059764344" target="_blank" class="p-2 btnNav"><img src="../images/btnFacebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/t4you2019/" target="_blank" class="p-2 btnNav"><img src="../images/btnInstagram.png" alt=""></a>
+                        <a href="" class="p-2 btnNav"><img src="../images/btnYouTube.png" alt=""></a>
+                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=t4you2019@gmail.com&amp;body=Olá!" target="_blank" class="p-2 btnNav">
+                            <img src="../images/btnGmail.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div style="height:60px"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 p-3">
+                <button href="" class="abtClick abtClick2 col-12" id="btnOffice">
+                    <a href="#office" style="color:white">
+                        <div class="container divEnvironment p-3 abtHoverOffice">
+                            <div class="row">
+                                <div class="col-12 txtEnvironment">
+                                    <h4>Office</h4>
+                                    <p class="m-0">
+                                        Baixo custo unido com performance na medida. Incluso pacote <b>Microsoft
+                                            Office
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </button>
+
+                <button href="" class="abtClick abtClick2 col-12" id="btnDevelopment">
+                    <a href="#development" style="color:white">
+                        <div class="container divEnvironment p-3 abtHoverDevelopment">
+                            <div class="row">
+                                <div class="col-12 txtEnvironment">
+                                    <h4>Development</h4>
+                                    <p class="m-0">
+                                        Altíssimo poder de processamento com <b>Microsoft Development Tools</b> incluso
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </button>
+
+                <button href="" class="abtClick abtClick2 col-12" id="btnDesign"><a href="#design" style="color:white">
+                        <div class="container divEnvironment p-3 abtHoverDesign">
+                            <div class="row">
+                                <div class="col-12 txtEnvironment">
+                                    <h4>Design</h4>
+                                    <p class="m-0">Máxima performance gráfica com o pacote <b>Adobe Creative Cloud</b> completo
+                                </div>
+                            </div>
+                        </div>
+                    </a></button>
+
+                <button href="" class="abtClick abtClick2 col-12" id="btnServer"><a href="#server" style="color:white">
+                        <div class="container divEnvironment p-3 abtHoverServer">
+                            <div class="row">
+                                <div class="col-12 txtEnvironment">
+                                    <h4>Server</h4>
+                                    <p class="m-0">Servidor completo com RAIDs e refrigeração, equipado com <b>Windows Server</b>
+                                </div>
+                            </div>
+                        </div>
+                    </a></button>
+
+
+            </div>
+            <!--______________________________OFFICE________________________________-->
+            <div class="col-12 col-lg-6 p-3" id="office">
+                <div class="container border p-4">
+                    <div class="row mb-3">
+                        <h2 class="col-12">Office</h2>
+                        <h5 class="col-12">Quantidade de computadores a adquirir:</h5>
+                        <input type="number" id="iptOff" class="pl-2 pr-0 col-5 oq">
+                        <button class="col-5 p-1 oq btnRed2" id="btnOff">Gerar Orçamento</button>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcOffice">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Pacote Office</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcProc">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Processador Intel Core i3</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcMae">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Placa Mãe XXX</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcHD">00,00</b> </h6>
+                        <p class="col-7 mb-0">com HD SSD 1 TB</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcGab">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Gabinete XPT-Mini Tower</p>
+                    </div>
+                    <div class="row pt-3 pb-3">
+                        <h5 class="col-5">R$ <b id="dcTotal" class="dcTotal">00,00</b></h5>
+                        <h6 class="col-7 pt-1">de Desconto por computador</h6>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <h5>Cada computador sai por</h5>
+                            <h3>R$ <b class="dcValue" id="valorTotal"> 1400,00</b></h3>
+                        </div>
+                        <button class="col-12 col-lg-4 mt-4 mb-4 btnRed2"><a href="https://github.com/fernandorpm" target="_blank">Contate-nos</a></button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--__________________________DEVELOPMENT_______________________________-->
+            <div class="col-12 col-lg-6 p-3" id="development">
+                <div class="container border p-4">
+                    <div class="row mb-3">
+                        <h2 class="col-12">Development</h2>
+                        <h5 class="col-12">Quantidade de computadores a adquirir:</h5>
+                        <input type="number" id="iptDev" class="pl-2 pr-0 col-5 oq">
+                        <button class="col-5 p-1 oq btnRed2" id="btnDev">Gerar Orçamento</button>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcDevelopment">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Microsoft Development Tools</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcProcD">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Processador Intel Core i7</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcMaeD">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Placa Mãe Gigabyte Z390</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcHDD">00,00</b> </h6>
+                        <p class="col-7 mb-0">com HD SSD 2 TB</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcGabD">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Gabinete Omni Full Tower</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcVidD">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Placa de Vídeo GeForce GTX 1650 XC</p>
+                    </div>
+                    <div class="row pt-3 pb-3">
+                        <h5 class="col-5">R$ <b id="dcTotalD" class="dcTotal">00,00</b></h5>
+                        <h6 class="col-7 pt-1">de Desconto por computador</h6>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <h5>Cada computador sai por</h5>
+                            <h3>R$ <b class="dcValue" id="valorTotalD"> 2600,00</b></h3>
+                        </div>
+                        <button class="col-12 col-lg-4 mt-4 mb-4 btnRed2"><a href="https://github.com/fernandorpm" target="_blank">Contate-nos</a></button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--____________________________DESIGN__________________________________-->
+            <div class="col-12 col-lg-6 p-3" id="design">
+                <div class="container border p-4">
+                    <div class="row mb-3">
+                        <h2 class="col-12">Design</h2>
+                        <h5 class="col-12">Quantidade de computadores a adquirir:</h5>
+                        <input type="number" id="iptDes" class="pl-2 pr-0 col-5 oq">
+                        <button class="col-5 p-1 oq btnRed2" id="btnDes">Gerar Orçamento</button>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcDesign">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Adobe Creative Cloud</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcProcE">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Processador Intel Core i5</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcMaeE">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Placa Mãe Gigabyte Z390</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcHDE">00,00</b> </h6>
+                        <p class="col-7 mb-0">com HD SSD 1 TB</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcGabE">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Gabinete Omni Full Tower</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcVidE">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Placa de Vídeo GeForce RTX 2080 Windforce</p>
+                    </div>
+                    <div class="row pt-3 pb-3">
+                        <h5 class="col-5">R$ <b id="dcTotalE" class="dcTotal">00,00</b></h5>
+                        <h6 class="col-7 pt-1">de Desconto por computador</h6>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <h5>Cada computador sai por</h5>
+                            <h3>R$ <b class="dcValue" id="valorTotalE"> 3100,00</b></h3>
+                        </div>
+                        <button class="col-12 col-lg-4 mt-4 mb-4 btnRed2"><a href="https://github.com/fernandorpm" target="_blank">Contate-nos</a></button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--____________________________SERVER__________________________________-->
+            <div class="col-12 col-lg-6 p-3" id="server">
+                <div class="container border p-4">
+                    <div class="row mb-3">
+                        <h2 class="col-12">Server</h2>
+                        <h5 class="col-12">Quantidade de computadores a adquirir:</h5>
+                        <input type="number" id="iptSer" class="pl-2 pr-0 col-5 oq">
+                        <button class="col-5 p-1 oq btnRed2" id="btnSer">Gerar Orçamento</button>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcServer">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Windows Server</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcProcS">00,00</b> </h6>
+                        <p class="col-7 mb-0">com x2 Processadores Intel Core i9</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcMaeS">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Placa Controladora Fibre Channel QME2572</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcHDS">00,00</b> </h6>
+                        <p class="col-7 mb-0">com x10 HDs 10 TB</p>
+                    </div>
+                    <div class="row dcSplit">
+                        <h6 class="col-5 mb-0">R$ <b id="dcGabS">00,00</b> </h6>
+                        <p class="col-7 mb-0">com Gabinete Storage Asustor NAS</p>
+                    </div>
+                    <div class="row pt-3 pb-3">
+                        <h5 class="col-5">R$ <b id="dcTotalS" class="dcTotal">00,00</b></h5>
+                        <h6 class="col-7 pt-1">de Desconto por computador</h6>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <h5>Cada computador sai por</h5>
+                            <h3>R$ <b class="dcValue" id="valorTotalS"> 21000,00</b></h3>
+                        </div>
+                        <button class="col-12 col-lg-4 mt-4 mb-4 btnRed2"><a href="https://github.com/fernandorpm" target="_blank">Contate-nos</a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../src/amb.js"></script>
+</body>
+
+</html>
