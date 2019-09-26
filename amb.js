@@ -148,11 +148,11 @@ document.getElementById("btnSer").onclick = function(){
     var valorTotal = document.getElementById("valorTotalS");
 
     const qtPc = document.getElementById("iptSer").value;
-    const a = Math.trunc(qtPc*1.0 + 30);
-    const b = Math.trunc(qtPc*0.8 + 30);
-    const c = Math.trunc(qtPc*0.3 + 20);
-    const d = Math.trunc(qtPc*0.4 + 16);
-    const e = Math.trunc(qtPc*0.6 + 18);
+    const a = Math.trunc(qtPc*13 + 130);
+    const b = Math.trunc(qtPc*15 + 312);
+    const c = Math.trunc(qtPc*13 + 113);
+    const d = Math.trunc(qtPc*21 + 1437);
+    const e = Math.trunc(qtPc*13 + 116);
     dcOffice.innerHTML = a + ",00";
     dcProc.innerHTML = b + ",00";
     dcMae.innerHTML = c + ",00";
@@ -160,6 +160,6 @@ document.getElementById("btnSer").onclick = function(){
     dcGab.innerHTML = e + ",00";
 
     dcTotal.innerHTML = a+b+c+d+e + ",00";
-    valorTotal.innerHTML = 1400 - (a+b+c+d+e) + ",00";
+    valorTotal.innerHTML = 21000 - (a+b+c+d+e) + ",00";
 };
 
