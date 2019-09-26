@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css"
-        type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <title>T4</title>
 </head>
 
@@ -18,13 +16,14 @@
     <nav class="nav navbar-expand-lg fixed-top bg-light navbar-light" id="navDesktop">
         <div class="container-fluid navContainer">
             <div class="row">
-                <a class="navbar-brand pl-lg-4 pr-lg-3" href=""><img src="png/t4.png" width="50px" alt=""></a>
+                <a class="navbar-brand pl-lg-4 pr-lg-3" href=""><img src="images/t4.png" width="50px" alt=""></a>
                 <div class="divBtn2 pt-3 pb-3" id="btnMobile">
-                    <a href="https://www.facebook.com/T4you-116154059764344" target="_blank" class="p-2 btnNav"><img src="png/btnFacebook.png" alt=""></a>
-                    <a href="https://www.instagram.com/t4you2019/" target="_blank" class="p-2 btnNav"><img src="png/btnInstagram.png" alt=""></a>
-                    <a href="" class="p-2 btnNav"><img src="png/btnYouTube.png" alt=""></a>
+                    <a href="https://www.facebook.com/T4you-116154059764344" target="_blank" class="p-2 btnNav"><img src="images/btnFacebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/t4you2019/" target="_blank" class="p-2 btnNav"><img src="images/btnInstagram.png" alt=""></a>
+                    <a href="" class="p-2 btnNav"><img src="images/btnYouTube.png" alt=""></a>
                     <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=t4you2019@gmail.com&amp;body=Olá!" target="_blank" class="p-2 btnNav">
-                    <img src="png/btnGmail.png" alt=""></a>
+                        <img src="images/btnGmail.png" alt="">
+                    </a>
                 </div>
                 <button class="navbar-toggler mt-2 mb-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -32,40 +31,37 @@
 
                 <!--_________________________________MENU ITEMS_________________________________-->
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <button class="btnNav pb-2 pt-2"><a class="nav-link" href="#">Home</a></button><!--
-                    --><button class="btnNav pb-2 pt-2"><a class="nav-link" href="#ambientes">Ambientes</a></button><!--
+                    <button class="btnNav pb-2 pt-2"><a class="nav-link" href="#">Home</a></button>
+                    <!--
+                    --><button class="btnNav pb-2 pt-2"><a class="nav-link" href="#ambientes">Ambientes</a></button>
+                    <!--
                     --><button class="btnNav pb-2 pt-2"><a class="nav-link" href="#contato">Contato</a></button>
-                    
-                    <div class="divBtn pt-2 pb-3 pr-4" id="btnDesktop">
-                        <a href="https://www.facebook.com/T4you-116154059764344" target="_blank" class="p-2 btnNav"><img src="png/btnFacebook.png" alt=""></a>
-                        <a href="https://www.instagram.com/t4you2019/" target="_blank" class="p-2 btnNav"><img src="png/btnInstagram.png" alt=""></a>
-                        <a href="" class="p-2 btnNav"><img src="png/btnYouTube.png" alt=""></a>
-                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=t4you2019@gmail.com&amp;body=Olá!" target="_blank" class="p-2 btnNav">
-                        <img src="png/btnGmail.png" alt=""></a>
-                    </div>
 
+                    <div class="divBtn pt-2 pb-3 pr-4" id="btnDesktop">
+                        <a href="https://www.facebook.com/T4you-116154059764344" target="_blank" class="p-2 btnNav"><img src="images/btnFacebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/t4you2019/" target="_blank" class="p-2 btnNav"><img src="images/btnInstagram.png" alt=""></a>
+                        <a href="" class="p-2 btnNav"><img src="images/btnYouTube.png" alt=""></a>
+                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=t4you2019@gmail.com&amp;body=Olá!" target="_blank" class="p-2 btnNav">
+                            <img src="images/btnGmail.png" alt=""></a>
+                    </div>
                 </div>
             </div>
-
         </div>
-
     </nav>
-
 
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="row pt-5">
                 <div class="col-12 col-lg-6 pb-4">
-                    <img src="png/pcmain.png" alt="" width="100%">
+                    <img src="images/pcmain.png" alt="" width="100%">
                 </div>
 
                 <div class="col-12 col-lg-6">
-                    <img src="png/t4you.png" alt="" width="70%" class="pb-4 ">
+                    <img src="images/t4you.png" alt="" width="70%" class="pb-4 ">
                     <h4 class="m-0">Computadores empresariais para todos os ambientes</h4>
                     <p class="txtJustify">com condições especiais para softwares,
                         hardwares e sistemas operacionais.</p>
-                    <div class="btnAlign"><button class="btnRed p-2 mt-5"><a class="p-2 pl-4 pr-4"
-                                href="html/ambientes.html">Ofertas</a></button></div>
+                    <div class="btnAlign"><button class="btnRed p-2 mt-5"><a class="p-2 pl-4 pr-4" href="pages/ambientes.html">Ofertas</a></button></div>
                 </div>
 
                 <div class="col-12 col-lg-6">
@@ -73,55 +69,54 @@
                 </div>
             </div>
 
-
             <div class="row divType pt-5 pr-5 pl-5 pb-3">
                 <div class="col-12 col-md-6 col-lg-3 mb-5">
                     <div class="col-12 pb-3">
-                    <img src="png/office.png" alt="" width="80px" style="border-radius:50%">
+                        <img src="images/office.png" alt="" width="80px" style="border-radius:50%">
                     </div>
                     <h4>Office</h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-5">
                     <div class="col-12 pb-3">
-                        <img src="png/development.png" alt="" width="80px" style="border-radius:50%">
+                        <img src="images/development.png" alt="" width="80px" style="border-radius:50%">
                     </div>
                     <h4>Development</h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-5">
                     <div class="col-12 pb-3">
-                        <img src="png/design.png" alt="" width="80px" style="border-radius:50%">
+                        <img src="images/design.png" alt="" width="80px" style="border-radius:50%">
                     </div>
                     <h4>Design</h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-5">
                     <div class="col-12 pb-3">
-                        <img src="png/server.png" alt="" width="80px" style="border-radius:50%">
+                        <img src="images/server.png" alt="" width="80px" style="border-radius:50%">
                     </div>
                     <h4>Server</h4>
                 </div>
             </div>
         </div>
 
-
         <div class="row divClient p-5" style="background-color: #f6f6f6">
             <div class="container pl-5 pr-5">
                 <div class="row">
                     <h3 class="col-12 pb-2 pt-2">Alguns de nossos clientes</h3>
                     <div class="col-12 col-md-6 col-lg-3 p-3">
-                        <img src="png/ptFatec.png" alt="" width="120px">
+                        <img src="images/ptFatec.png" alt="" width="120px">
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 p-3">
-                        <img src="png/ptCps.png" alt="" width="120px">
+                        <img src="images/ptCps.png" alt="" width="120px">
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 p-3">
-                        <img src="png/ptSp.png" alt="" width="120px">
+                        <img src="images/ptSp.png" alt="" width="120px">
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 p-3">
-                        <img src="png/ptBrasil.png" alt="" width="120px">
+                        <img src="images/ptBrasil.png" alt="" width="120px">
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
+
         <div class="row p-5 divApp">
             <div class="col-12">
                 <h1 class="text-light pt-5 pb-0" style="font-size:50px">100% de aprovação</h1>
@@ -140,55 +135,61 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 mb-4">
-                            <a href="html/ambientes.html" class="abtClick"><div class="container divEnvironment p-3 abtHoverOffice">
-                            <div class="row">
-                                <div class="col-12 txtEnvironment">
-                                    <h4>Office</h4>
-                                    <p>Baixo custo unido com performance na medida. Incluso pacote <b>Microsoft
-                                    Office</b></p>
+                        <a href="pages/ambientes.html" class="abtClick">
+                            <div class="container divEnvironment p-3 abtHoverOffice">
+                                <div class="row">
+                                    <div class="col-12 txtEnvironment">
+                                        <h4>Office</h4>
+                                        <p>Baixo custo unido com performance na medida. Incluso pacote <b>Microsoft
+                                                Office</b></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div></a>
+                        </a>
                     </div>
                     <div class="col-12 col-lg-6 mb-4">
-                        <a href="html/ambientes.html" class="abtClick"><div class="container divEnvironment p-3 abtHoverDevelopment">
-                            <div class="row">
-                                <div class="col-12 txtEnvironment">
-                                    <h4>Development</h4>
-                                    <p>Altíssimo poder de processamento com <b>Microsoft Development Tools</b> incluso
-                                    </p>
+                        <a href="pages/ambientes.html" class="abtClick">
+                            <div class="container divEnvironment p-3 abtHoverDevelopment">
+                                <div class="row">
+                                    <div class="col-12 txtEnvironment">
+                                        <h4>Development</h4>
+                                        <p>Altíssimo poder de processamento com <b>Microsoft Development Tools</b> incluso
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div></a>
+                        </a>
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                            <a href="html/ambientes.html" class="abtClick"><div class="container divEnvironment p-3 abtHoverDesign">
-                            <div class="row">
-                                <div class="col-12 txtEnvironment">
-                                    <h4>Design</h4>
-                                    <p>Máxima performance gráfica com o pacote <b>Adobe Creative Cloud</b> completo</p>
-                                    </p>
+                        <a href="pages/ambientes.html" class="abtClick">
+                            <div class="container divEnvironment p-3 abtHoverDesign">
+                                <div class="row">
+                                    <div class="col-12 txtEnvironment">
+                                        <h4>Design</h4>
+                                        <p>Máxima performance gráfica com o pacote <b>Adobe Creative Cloud</b> completo</p>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div></a>
+                        </a>
                     </div>
                     <div class="col-12 col-lg-6 mb-4">
-                            <a href="html/ambientes.html" class="abtClick"><div class="container divEnvironment p-3 abtHoverServer">
-                            <div class="row">
-                                <div class="col-12 txtEnvironment">
-                                    <h4>Server</h4>
-                                    <p>Servidor completo com RAIDs e refrigeração, equipado com <b>Windows Server</b>
+                        <a href="pages/ambientes.html" class="abtClick">
+                            <div class="container divEnvironment p-3 abtHoverServer">
+                                <div class="row">
+                                    <div class="col-12 txtEnvironment">
+                                        <h4>Server</h4>
+                                        <p>Servidor completo com RAIDs e refrigeração, equipado com <b>Windows Server</b>
+                                    </div>
                                 </div>
                             </div>
-                        </div></a>
+                        </a>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
+
         <div class="container" id="contato">
             <div class="row" style="text-align:center">
                 <h3 class="col-12 pb-3 pt-5 mt-2">Contate-nos</h3>
@@ -196,13 +197,11 @@
                     <form style="text-align: left">
                         <div class="form-group">
                             <label for="exampleInputName1">Nome:</label>
-                            <input type="name" class="form-control" id="nome1" aria-describedby="emailHelp"
-                                placeholder="Seu nome">
+                            <input type="name" class="form-control" id="nome1" aria-describedby="emailHelp" placeholder="Seu nome">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email:</label>
-                            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp"
-                                placeholder="Seu e-mail">
+                            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Seu e-mail">
                             <small id="emailHelp" class="form-text text-muted">O seu e-mail não será compartilhado para
                                 terceiros.</small>
                         </div>
@@ -228,50 +227,35 @@
                 </div>
 
                 <div class="col-12 col-lg-3 pb-1">
-                    <a href="https://www.facebook.com/T4you-116154059764344" target="_blank"><button class="btnContato p-2"><img src="png/btnFacebook2.png" alt="" class="pr-1"> /t4you</button></a>
+                    <a href="https://www.facebook.com/T4you-116154059764344" target="_blank"><button class="btnContato p-2"><img src="images/btnFacebook2.png" alt="" class="pr-1"> /t4you</button></a>
                 </div>
                 <div class="col-12 col-lg-3 pb-1">
-                    <a href="https://www.instagram.com/t4you2019/" target="_blank"><button class="btnContato p-2"><img src="png/btnInstagram2.png" alt="" class="pr-2"> /t4you</button></a>
+                    <a href="https://www.instagram.com/t4you2019/" target="_blank"><button class="btnContato p-2"><img src="images/btnInstagram2.png" alt="" class="pr-2"> /t4you</button></a>
                 </div>
                 <div class="col-12 col-lg-3 pb-1">
-                    <button class="btnContato p-2"><img src="png/btnYoutube2.png" alt="" class="pr-2"> /t4you</button>
+                    <button class="btnContato p-2"><img src="images/btnYouTube2.png" alt="" class="pr-2"> /t4you</button>
                 </div>
                 <div class="col-12 col-lg-3 pb-5">
                     <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=t4you2019@gmail.com&amp;body=Olá!" target="_blank">
-                        <button class="btnContato p-2"><img src="png/btnGmail2.png" alt="" class="pr-2">
-                        t4you2019@gmail.com</button></a>
-                        
+                        <button class="btnContato p-2"><img src="images/btnGmail2.png" alt="" class="pr-2">
+                            t4you2019@gmail.com</button></a>
                 </div>
-
             </div>
         </div>
-
-
-
-
     </div>
+
     <div class="container-fluid p-5" style="color: #808080 ;background-color: #eee; text-align: center">This is a
-        fictional website developed for studying purposes by <a href="https://github.com/fernandorpm" target="_blank"
-            class="git">Fernando R P Marques</a><br>
+        fictional website developed for studying purposes by <a href="https://github.com/fernandorpm" target="_blank" class="git">Fernando R P Marques</a><br>
         with the assistance of <a href="https://github.com/lucasnaja" target="_blank" class="git">Lucas
-            Bittencourt</a></div>
+            Bittencourt
+        </a>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-    <script src="main.js"></script>
+    <script src="src/main.js"></script>
 </body>
 
 </html>

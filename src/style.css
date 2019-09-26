@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth
-    }
+}
 
 .navbar-brand {
     padding-top: 12px;
@@ -14,15 +14,15 @@ html {
 
 @media screen and (min-width: 992px) {
     #btnMobile {
-      visibility: hidden;
-      display: none;
+        visibility: hidden;
+        display: none;
     }
-  }
+}
 
 @media screen and (max-width: 992px) {
     #btnDesktop {
-      visibility: hidden;
-      display: none;
+        visibility: hidden;
+        display: none;
     }
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
 .bg-light {
-    background-color: white!important;
+    background-color: white !important;
 }
 
 .btnNav {
@@ -78,13 +78,15 @@ html {
     background-color: red;
 }
 
-.btnRed,a {
+.btnRed,
+a {
     color: red;
     transition-duration: 0.2s;
 }
 
-.btnRed,a:hover {
-    color: white;   
+.btnRed,
+a:hover {
+    color: white;
     text-decoration: none;
 }
 
@@ -100,49 +102,53 @@ html {
 .divClient {
     text-align: center;
 }
+
 /*__________________OFFICE__________________*/
 .abtHoverOffice {
     border-radius: 3px;
     transition-duration: 0.3s;
-    background-image: url("png/abtOffice2.jpg");
+    background-image: url("../images/abtOffice2.jpg");
     background-size: cover;
 }
 
 .abtHoverOffice:hover {
-    background-image: url("png/abtOffice.jpg");
+    background-image: url("../images/abtOffice.jpg");
 }
+
 /*__________________DEVELOPMENT__________________*/
 .abtHoverDevelopment {
     border-radius: 3px;
     transition-duration: 0.3s;
-    background-image: url("png/abtDevelopment2.jpg");
+    background-image: url("../images/abtDevelopment2.jpg");
     background-size: cover;
 }
 
 .abtHoverDevelopment:hover {
-    background-image: url("png/abtDevelopment.jpg");
+    background-image: url("../images/abtDevelopment.jpg");
 }
+
 /*__________________DESIGN__________________*/
 .abtHoverDesign {
     border-radius: 3px;
     transition-duration: 0.3s;
-    background-image: url("png/abtDesign2.jpg");
+    background-image: url("../images/abtDesign2.jpg");
     background-size: cover;
 }
 
 .abtHoverDesign:hover {
-    background-image: url("png/abtDesign.jpg");
+    background-image: url("../images/abtDesign.jpg");
 }
+
 /*__________________SERVER__________________*/
 .abtHoverServer {
     border-radius: 3px;
     transition-duration: 0.3s;
-    background-image: url("png/abtServer2.jpg");
+    background-image: url("../images/abtServer2.jpg");
     background-size: cover;
 }
 
 .abtHoverServer:hover {
-    background-image: url("png/abtServer.jpg");
+    background-image: url("../images/abtServer.jpg");
 }
 
 .abtClick {
@@ -151,7 +157,7 @@ html {
 }
 
 .divApp {
-    background-image: url(png/appbg2.jpg);
+    background-image: url("../images/appbg2.jpg");
     background-size: cover;
     text-align: center;
 }
@@ -167,7 +173,7 @@ html {
 .map {
     height: 350px;
     width: 100%;
-  }
+}
 
 .btnContato {
     border: 0;
@@ -232,5 +238,3 @@ html {
     border: 0;
     padding: 0;
 }
-
-
