@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth
+    }
+
+.navbar-brand {
+    padding-top: 12px;
+    margin: 0 auto;
+}
+
+.navbar-toggler {
+    text-align: right;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+    #btnMobile {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    #btnDesktop {
+      visibility: hidden;
+      display: none;
+    }
+}
+
+.divBtn {
+    margin-left: auto;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.btnNav {
+    border: 0;
+    border-bottom: 4px solid white;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+.active {
+    border-bottom: 4px solid rgb(90, 90, 90);
+}
+
+.nav-link {
+    color: rgb(90, 90, 90);
+    transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.txtJustify {
+    text-align: justify;
+}
+
+.btnAlign {
+    text-align: center;
+}
+
+.btnRed {
+    border: 1px solid red;
+    background-color: white;
+    transition-duration: 0.2s;
+    color: red;
+    border-radius: 3px;
+}
+
+.btnRed:hover {
+    background-color: red;
+}
+
+.btnRed,a {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.btnRed,a:hover {
+    color: white;   
+    text-decoration: none;
+}
+
+
+.btnNav:hover {
+    border-bottom: 4px solid red;
+}
+
+.divType {
+    text-align: center;
+}
+
+.divClient {
+    text-align: center;
+}
+/*__________________OFFICE__________________*/
+.abtHoverOffice {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtOffice2.jpg");
+    background-size: cover;
+}
+
+.abtHoverOffice:hover {
+    background-image: url("png/abtOffice.jpg");
+}
+/*__________________DEVELOPMENT__________________*/
+.abtHoverDevelopment {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtDevelopment2.jpg");
+    background-size: cover;
+}
+
+.abtHoverDevelopment:hover {
+    background-image: url("png/abtDevelopment.jpg");
+}
+/*__________________DESIGN__________________*/
+.abtHoverDesign {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtDesign2.jpg");
+    background-size: cover;
+}
+
+.abtHoverDesign:hover {
+    background-image: url("png/abtDesign.jpg");
+}
+/*__________________SERVER__________________*/
+.abtHoverServer {
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    background-image: url("png/abtServer2.jpg");
+    background-size: cover;
+}
+
+.abtHoverServer:hover {
+    background-image: url("png/abtServer.jpg");
+}
+
+.abtClick {
+    color: white;
+    transition-duration: 0s;
+}
+
+.divApp {
+    background-image: url(png/appbg2.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.txtEnvironment {
+    text-align: left;
+}
+
+.divEnvironment {
+    border: 1px solid #aaa;
+}
+
+.map {
+    height: 350px;
+    width: 100%;
+  }
+
+.btnContato {
+    border: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #bbb;
+    transition-duration: 0.3s;
+    border-radius: 3px;
+}
+
+.btnContato:hover {
+    background-color: red;
+    color: white;
+}
+
+.git {
+    color: #c24e4e;
+}
+
+.git:hover {
+    text-decoration-line: underline;
+    color: red;
+}
+
+
+/*____________________________________*/
+
+.dcValue {
+    padding-left: auto;
+    text-align: right;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.dcTotal {
+    font-size: 24px;
+}
+
+.oq {
+    margin: 0 auto;
+}
+
+.dcSplit {
+    border-bottom: 1px solid #aaa;
+}
+
+.btnRed2 {
+    border: 1px solid red;
+    background-color: white;
+    transition-duration: 0.2s;
+    color: red;
+    border-radius: 3px;
+}
+
+.btnRed2:hover {
+    background-color: red;
+    color: white;
+}
+
+.abtClick2 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
